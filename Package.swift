@@ -12,7 +12,7 @@ let package = Package(
         .package(url: "https://github.com/apple/swift-temporal-sdk.git", from: "0.3.0"),
         .package(url: "https://github.com/Eisenhuth/Ospuze.git", branch: "master"),         //package to get leaderboard data for The Finals
         .package(url: "https://github.com/Eisenhuth/xivapi-swift.git", branch: "master"),   //package to get FFXIV game data from xivapi.com
-        .package(url: "https://github.com/Eisenhuth/universalis-swift", branch: "master")   //package to get FFXIV market data from universalis.com
+        .package(url: "https://github.com/Eisenhuth/universalis-swift", branch: "master")   //package to get FFXIV market data from universalis.app
     ],
     targets: [
         .testTarget(
